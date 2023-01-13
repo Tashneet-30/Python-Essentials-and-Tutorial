@@ -26,5 +26,15 @@ and X and x are not similar in Python
 ### To get INPUT from the user :
     x = input()
     print(x)
-    
+print("Hey..",Enter your age)
+age = input()
+print("Her Age ",age)
+
 ## OPERATORS : +,-,*,/ (to perform mathematical operations and calculations)
+For eg;
+a= 8
+b = 9
+print(a+b) etc etc.
+### Exponents in Python : **
+// --> returns the quotient 
+% -->
