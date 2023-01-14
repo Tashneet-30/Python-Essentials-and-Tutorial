@@ -37,4 +37,43 @@ b = 9
 print(a+b) etc etc.
 ### Exponents in Python : **
 // --> returns the quotient 
-% -->
+% -->   returns the remainder 
+
+### Decision Statement ::
+IF/ELIF/ELSE
+if condition=True:
+   do this 
+else:
+   do this
+   
+### NOTE : HERE, INDENTATION SHOULD BE PROPER...!!!
+
+x= int(input())
+if x>9:
+   print("Hey")
+elif x>18:
+   print("YOYO")
+else:
+   print("Done")
+   
+   
+   
+### CHAINED CONDITIONALS ::
+adding multiple conditionals 
+
+if x==y and x+y==5:
+   do this 
+   
+   
+and :: both conditions on either side must be true 
+Similarly, or keyword :: either of the condition should be true 
+ not :: replaces anything i.e. TRUE becomes FALSE and vice versa
+ 
+ ## NESTED IF STATEMENTS :: 
+ if condtn:
+   if condtn:
+   else:
+ else:
+ 
+ 
+## LOOPS ::
