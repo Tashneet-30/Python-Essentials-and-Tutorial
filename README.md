@@ -107,3 +107,27 @@ For eg:
 ### Indexing always starts from zero 
 
 Hence, Hey will be printed...!!!
+
+Add values to list ::
+       
+       fruits.append('strawberry') ------> using.append()
+
+Change values in List :::
+
+      fruits[0] = 'blueberry'
+
+## Tuples :: List which cannot be changed 
+     fruits = (2,3,'hello')
+     
+### Iterating list in Loops BY ITEM::
+     fruits = ['apples','strawberry','pear','jelly']
+     for fruit in fruits:
+     print(fruit)
+     
+Also, 
+     
+     for x in range(0,3):
+        if(fruits[x]=='jelly'):
+           print("fruits[x])
+        else:
+           print("not jelly")
