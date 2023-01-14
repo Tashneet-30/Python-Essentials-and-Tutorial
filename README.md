@@ -26,43 +26,45 @@ and X and x are not similar in Python
 ### To get INPUT from the user :
     x = input()
     print(x)
-print("Hey..",Enter your age)
-age = input()
-print("Her Age ",age)
+    print("Hey..",Enter your age)
+    age = input()
+    print("Her Age ",age)
 
 ## OPERATORS : +,-,*,/ (to perform mathematical operations and calculations)
 For eg;
-a= 8
-b = 9
-print(a+b) etc etc.
+
+     a= 8
+     b = 9
+     print(a+b) etc etc.
 ### Exponents in Python : **
 // --> returns the quotient 
 % -->   returns the remainder 
 
 ### Decision Statement ::
 IF/ELIF/ELSE
-if condition=True:
-   do this 
-else:
-   do this
+
+     if condition=True:
+        do this 
+     else:
+        do this
    
 ### NOTE : HERE, INDENTATION SHOULD BE PROPER...!!!
 
-x= int(input())
-if x>9:
-   print("Hey")
-elif x>18:
-   print("YOYO")
-else:
-   print("Done")
+    x= int(input())
+    if x>9:
+      print("Hey")
+    elif x>18:
+      print("YOYO")
+   else:
+      print("Done")
    
    
    
 ### CHAINED CONDITIONALS ::
 adding multiple conditionals 
 
-if x==y and x+y==5:
-   do this 
+    if x==y and x+y==5:
+     do this 
    
    
 and :: both conditions on either side must be true 
@@ -70,31 +72,38 @@ Similarly, or keyword :: either of the condition should be true
  not :: replaces anything i.e. TRUE becomes FALSE and vice versa
  
  ## NESTED IF STATEMENTS :: 
- if condtn:
-   if condtn:
-   else:
- else:
+     if condtn:
+     if condtn:
+     else:
+     else:
  
  
 ## LOOPS ::  (FOR)
-for x in range (0,10,1):         ------>>> (start,stop,step)
-   print(x)
+    for x in range (0,10,1):         ------>>> (start,stop,step)
+    print(x)
 
 will print numbers from 0 to 9 i.e. 0 to n-1
 
 
 ## WHILE::
-while condition == True:
-    do this 
+    while condition == True:
+      do this 
 break :: comes out of the loop 
 
 For eg:
-loop = True
-while loop:
-   print("heyyyyyy")
-   loop = False
+
+      loop = True
+      while loop:
+         print("heyyyyyy")
+         loop = False
    
    
 ### LISTS AND TUPLES:::
 Lists is an another data types which is a collection of all data  types 
 For eg:
+
+    fruits = ['apple','hey',3]
+    print(fruits[1])   
+### Indexing always starts from zero 
+
+Hence, Hey will be printed...!!!
