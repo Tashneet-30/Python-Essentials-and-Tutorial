@@ -76,4 +76,25 @@ Similarly, or keyword :: either of the condition should be true
  else:
  
  
-## LOOPS ::
+## LOOPS ::  (FOR)
+for x in range (0,10,1):         ------>>> (start,stop,step)
+   print(x)
+
+will print numbers from 0 to 9 i.e. 0 to n-1
+
+
+## WHILE::
+while condition == True:
+    do this 
+break :: comes out of the loop 
+
+For eg:
+loop = True
+while loop:
+   print("heyyyyyy")
+   loop = False
+   
+   
+### LISTS AND TUPLES:::
+Lists is an another data types which is a collection of all data  types 
+For eg:
