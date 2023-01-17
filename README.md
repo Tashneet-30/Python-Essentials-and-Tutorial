@@ -132,3 +132,75 @@ Also,
            print("fruits[x])
         else:
            print("not jelly")
+
+### String Methods ::
+.strip() :: Removes all the white spaces froma a string.
+
+     x =input('enter a sen')
+     print(x.strip())
+     print(len(x))
+     print(x.lower())
+     print(x.upper())
+     print(x.split('.'))
+     
+ len()    :: Returns the length of a string 
+ .lower() :: Returns lowercase 
+ .upper() :: Returns uppercase 
+ .split() :: Returns a list of string  Here splitting occurs from the delimiter ... By default , delimiter is SPACE 
+ 
+ ## SLICE OPERATOR :: Can be used on strings and lists 
+      x = 'I am Tashneet Kaur'
+      print(x[start::stop::step]
+      print(x[0:4])                 -------> Output will be I am
+ 
+ Insert function : 
+ 
+      fruits[0:0] will insert at the beginning 
+      
+## Functions in Python : 
+       def func_name(parameters) 
+       returns something 
+For eg :
+
+        def subtraction_of_two(number):
+        return number-2;
+        
+Function call :: 
+
+        subtraction_of_two(argument)
+        
+## Reading from a TEXT FILE :: 
+1. Create a File (.txt)
+2. Add some content for reference 
+3. NOTE :: SAVE YOUR FILE IN SAME DIRECTORY WHERE ALL YOUR PYTHON SCRIPT IS PRESENT 
+
+Name a variable :: 
+
+      file = open('File.txt','r')
+      f = file.readines()
+      print(f)
+      newlist=[]
+      for line in f:
+         if line[-1] =='\n'
+          newlist.append(line[:-1])       ----->goes to last character but does not include the last character 
+          else:
+          newlist.append(line)
+      print(newlist)
+      file.close()
+          
+Or 
+
+      file = open('File.txt','r')
+       f = file.readines()
+       newlist = []
+       for line in f:
+          newlist.append(line.strip('\n'))
+          print(newlist)
+
+## WRITING TO A TEXT FILE:
+1.Create a File 
+2.Have something written in the file 
+     
+       file = open('File.txt','w')
+       
+       
