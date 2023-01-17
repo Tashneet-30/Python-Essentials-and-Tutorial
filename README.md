@@ -1,7 +1,8 @@
 # Python-Essentials-and-Tutorial
 Download the lastest version of Python first...!
-Then Let's start with the basic ### DATA TYPES first :
-1. Integer : Refers to any number (negative,positive)
+Then Let's start with the basic
+### DATA TYPES first :
+1 Integer : Refers to any number (negative,positive)
 For eg: 1,-5,98
 
 2.String : (str) Anything embedded in quotations 
