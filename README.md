@@ -171,8 +171,8 @@ Function call ::
         
 ## Reading from a TEXT FILE :: 
 1. Create a File (.txt)
-2. Add some content for reference 
-3. NOTE :: SAVE YOUR FILE IN SAME DIRECTORY WHERE ALL YOUR PYTHON SCRIPT IS PRESENT 
+2.  Add some content for reference 
+3.  NOTE :: SAVE YOUR FILE IN SAME DIRECTORY WHERE ALL YOUR PYTHON SCRIPT IS PRESENT 
 
 Name a variable :: 
 
@@ -198,8 +198,8 @@ Or
           print(newlist)
 
 ## WRITING TO A TEXT FILE:
-1.Create a File 
-2.Have something written in the file 
+1. Create a File 
+2. Have something written in the file 
      
        file = open('File.txt','w')
        
