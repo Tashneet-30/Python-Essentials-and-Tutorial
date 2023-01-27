@@ -31,6 +31,10 @@ and X and x are not similar in Python
     age = input()
     print("Her Age ",age)
 
+## Multiple variables as input :
+    a,b,c = map(data types, input().split())
+    
+
 ## OPERATORS : +,-,*,/ (to perform mathematical operations and calculations)
 For eg;
 
